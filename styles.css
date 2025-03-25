@@ -1,11 +1,48 @@
 *{
     margin: 0;
+    font-family: "Poppins", sans-serif;
 }
-
+/* RIch's Styles*/
 .rich{
     border: 5px solid blue;
 }
-
+/* Take tour */
+.take-tour{
+    height: 130vh;
+}
+.download{
+    border: 2px solid blue;
+    height: 27vh;
+    width: 68vh;
+    position: absolute;
+    top: 55vh;
+    left: 3vh;
+    border-radius: 1vh;
+    padding: 4vh;
+}
+.download h3{
+    font-size: 2em;
+    font-weight: 500;
+    margin: 0 auto;
+    
+}
+.slide{
+    border: 2px solid blue;
+    height: 5vh;
+    width: 15vh;
+    position: absolute;
+    top: 67vh;
+    right: 3vh;
+}
+/* The App */
+.app-info{
+    height: 85vh;
+}
+/* Features */
+.features{
+    height: 115vh;
+}
+/* Nicka's Styles*/
 .nicka{
     border: 5px solid red;
 }
