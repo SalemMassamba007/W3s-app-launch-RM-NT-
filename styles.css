@@ -4,7 +4,7 @@
 }
 /* RIch's Styles*/
 .rich{
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
 }
 /* Take tour */
 .take-tour{
@@ -35,11 +35,11 @@
 }
 .slide{
     border: 2px solid blue;
-    height: 5vh;
-    width: 15vh;
+    height: 6vh;
+    width: 17vh;
     position: absolute;
-    top: 67vh;
-    right: 3vh;
+    top: 66.6vh;
+    right: 2vh;
     border-radius: 1vh;
     background-color: #000;
 }
@@ -77,7 +77,7 @@
 }
 
 .slide p{
-    font-size: 18px;
+    font-size: 1.15em;
     text-align: center;
 }
 /* The App */
