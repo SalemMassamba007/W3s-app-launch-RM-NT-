@@ -8,7 +8,10 @@
 }
 /* Take tour */
 .take-tour{
-    height: 130vh;
+    height: 53.72vh;
+}
+.banner{
+    width: 100%;
 }
 .download{
     border: 2px solid blue;
@@ -19,11 +22,15 @@
     left: 3vh;
     border-radius: 1vh;
     padding: 4vh;
+    background-color: #000;
+    opacity: 0.5;
 }
 .download h3{
     font-size: 2em;
     font-weight: 500;
     margin: 0 auto;
+    position: relative;
+    color: whhite;
     
 }
 .slide{
