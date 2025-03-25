@@ -1,11 +1,94 @@
 *{
     margin: 0;
+    font-family: "Poppins", sans-serif;
 }
-
+/* RIch's Styles*/
 .rich{
     border: 5px solid blue;
 }
+/* Take tour */
+.take-tour{
+    height: 105vh;
+}
+.banner{
+    width: 100%;
+}
+.download{
+    border: 2px solid blue;
+    height: 23vh;
+    width: 62.5vh;
+    position: absolute;
+    top: 55vh;
+    left: 3vh;
+    border-radius: 1vh;
+    padding: 3vh;
+    background-color: #000;
+    opacity: 0.6;
+    color: white;
+}
+.download h3{
+    font-size: 1.7em;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    
+}
+.slide{
+    border: 2px solid blue;
+    height: 6vh;
+    width: 17vh;
+    position: absolute;
+    top: 66.6vh;
+    right: 2vh;
+    border-radius: 1vh;
+    background-color: #000;
+}
 
+.download button{
+    width: 100%;
+    height: 6vh;
+    border: none;
+    border-radius: 0.5vh;
+    background-color: #4caf50;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.download p{
+    text-align: center;
+    font-size: 18px;
+    margin: 0 0 2vh;
+}
+
+.download hr{
+    margin: 3vh 0 3vh;
+    opacity: 0.5;
+}
+
+.download i {
+     margin: 0 0.3vh;
+}
+
+.slide {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.slide p{
+    font-size: 1.15em;
+    text-align: center;
+}
+/* The App */
+.app-info{
+    height: 85vh;
+}
+/* Features */
+.features{
+    height: 115vh;
+}
+/* Nicka's Styles*/
 .nicka{
     border: 5px solid red;
 }
