@@ -2,30 +2,35 @@
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
+
 /* RIch's Styles*/
 .rich{
     border: 5px solid blue;
 }
 /* Take tour */
 .take-tour{
-    height: 105vh;
+    height: 140.7vh;
 }
 .banner{
     width: 100%;
 }
 .download{
-    border: 2px solid blue;
     height: 23vh;
-    width: 62.5vh;
+    width: 63vh;
     position: absolute;
-    top: 55vh;
-    left: 3vh;
+    top: 55.5vh;
+    left: 2.2vh;
     border-radius: 1vh;
     padding: 3vh;
     background-color: #000;
     opacity: 0.6;
     color: white;
 }
+
+.download:hover{
+    opacity: 1;
+}
+
 .download h3{
     font-size: 1.7em;
     font-weight: 400;
@@ -33,20 +38,10 @@
     text-align: center;
     
 }
-.slide{
-    border: 2px solid blue;
-    height: 6vh;
-    width: 17vh;
-    position: absolute;
-    top: 66.6vh;
-    right: 2vh;
-    border-radius: 1vh;
-    background-color: #000;
-}
 
 .download button{
     width: 100%;
-    height: 6vh;
+    height: 5.5vh;
     border: none;
     border-radius: 0.5vh;
     background-color: #4caf50;
@@ -57,7 +52,7 @@
 
 .download p{
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 0 2vh;
 }
 
@@ -70,23 +65,175 @@
      margin: 0 0.3vh;
 }
 
-.slide {
+.slide{
     color: white;
     display: flex;
     justify-content: center;
+    height: 5.5vh;
+    width: 17vh;
+    position: absolute;
+    top: 67.1vh;
+    right: 2vh;
+    border-radius: 0.5vh;
+    background-color: #000;
+}
+
+.slide:hover{
+    background-color: #fff;
+    color: #000;
 }
 
 .slide p{
     font-size: 1.15em;
     text-align: center;
+    position: relative;
+    top: 0.9vh;
 }
 /* The App */
 .app-info{
     height: 85vh;
+    display: flex;
 }
+
+.app-info i{
+    font-size: 1.5em;
+}
+
+.app-info button:hover{
+    background-color: #aaaaaa;
+}
+
+.green{
+    color: #4caf50;
+}
+
+.black{
+    color: #000;
+}
+
+.blue{
+    color:aqua
+}
+
+.theapp{
+    margin: 10vh 0 2vh 3vh;
+}
+
+.theapp h1{
+    font-size: 4em;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+
+.theapp h2{
+    color: #4caf50;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.theapp span{
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.theapp p{
+    font-size: 1em;
+    margin: 3vh 19vh 2vh 0vh;
+    word-wrap: break-word;
+}
+
+.theapp button{
+    width: 33vh;
+    height: 7vh;
+    margin: 2vh 0 0 0;
+    border: none;
+    font-size: 1.03em;
+}
+.tab{
+    height: 67vh;
+    width: 57vh;
+    margin: 8vh 2vh;
+}
+
 /* Features */
 .features{
-    height: 115vh;
+    height: 105vh;
+    background-color: #616161;
+    padding: 13vh 5vh;
+}
+.features h1{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.features .thisapp{
+    color: white;
+    text-align: center;
+    margin: 2.5vh 0;
+}
+
+.features .thisapp{
+    color: white;
+}
+
+.grid{
+    display: grid;
+}
+
+.grid td{
+    height: 30vh;
+    width: 50vh;
+    text-align: center;
+}
+
+.grid table{
+    width: 100%;
+}
+
+.grid p{
+    color: white;
+}
+
+.grid i{
+    font-size: 70px;
+}
+.fa-bolt-lightning{
+    color: orange;
+}
+.fa-heart{
+    color: red;
+}
+.fa-camera{
+    color: yellow;
+}
+.fa-battery-full{
+    color: lime;
+}
+.fa-diamond{
+    color: white;
+}
+.fa-cloud{
+    color: rgb(58, 180, 255);
+}
+.fa-globe-americas{
+    color: goldenrod;
+}
+.fa-hdd{
+    color: cyan;
+}
+.fa-user{
+    color: white;
+}
+.fa-shield{
+    color: orange;
+}
+.fa-wifi{
+    color: grey;
+}
+.fa-image{
+    color: rgb(255, 88, 116);
 }
 /* Nicka's Styles*/
 .nicka{
